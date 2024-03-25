@@ -15,7 +15,7 @@ First, we preprocessed the data following these steps:
     4. Determine our target and features columns:
     
         -The EIN and Name columns were dropped because they are only used for identification purposes
-        
+ 
         -The IS_SUCESSFUL column was used as the target 
         
         -The rest of the columns were used as features
@@ -31,8 +31,11 @@ First, we preprocessed the data following these steps:
 ## Compile, train, and evaluate the model
 
 Before we compiled the model, we defined the model by creating an instance of it and adding each hidden layer. For our first attempt, we used the following structure:
+   
     -Two hidden layers, the first with 8 nodes, the second with 5 nodes
+    
     -Hidden activation functions were set to Relu
+    
     -Last layer activation function was set to Sigmoid because the outcome is binary
 
 Next we compiled and trained the model using 100 epochs. We achieved a model loss of 0.55 and accuracy score of 0.73.
@@ -50,8 +53,11 @@ In the first optimization attempt, we added a third hidden layer and increased t
 ## Summary
 
 We attempted to develop a machine learning tool that would help Alphabet Soup select applicants for business funding using data from previous awardees. We were not able to achieve an accuracy score of higher than .73, so we can conclude that the dataset is perhaps lacking some fundamental variables that contribute to the success of a business. Some examples of additional information to collect for future analyses include:
+   
     -Education level of Founder/CEO
+    
     -Geographical information
+    
     -Length of time business has been in operation
 
 Sources for code:
