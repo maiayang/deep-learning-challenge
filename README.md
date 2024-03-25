@@ -15,6 +15,7 @@ First, we preprocessed the data following these steps:
     5. Split the data into training and testing datasets 
     6. Used scikit-learn's StandardScaler() to scale the data.
 
+![image](https://github.com/maiayang/deep-learning-challenge/assets/145394264/21c32c33-5d42-4e57-b357-511b1ea36ebb)
 
 
 ## Compile, train, and evaluate the model
