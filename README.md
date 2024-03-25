@@ -16,6 +16,7 @@ First, we preprocessed the data following these steps:
     6. Used scikit-learn's StandardScaler() to scale the data.
 
 ![image](https://github.com/maiayang/deep-learning-challenge/assets/145394264/21c32c33-5d42-4e57-b357-511b1ea36ebb)
+![image](https://github.com/maiayang/deep-learning-challenge/assets/145394264/c2bbdfe6-f5ef-40c0-9c80-14e7edc5f3bd)
 
 
 ## Compile, train, and evaluate the model
@@ -27,7 +28,11 @@ Before we compiled the model, we defined the model by creating an instance of it
 
 Next we compiled and trained the model using 100 epochs. We achieved a model loss of 0.55 and accuracy score of 0.73.
 
-##Optimization
+![image](https://github.com/maiayang/deep-learning-challenge/assets/145394264/c91620b1-b1ec-4dd8-84d0-2ee5ded68b04)
+![image](https://github.com/maiayang/deep-learning-challenge/assets/145394264/be2c51f0-872d-4833-8a00-af00fac3e57b)
+
+
+## Optimization
 
 To try to achieve our target accuracy score of .75, we made three subsequent attempts to optimize the model (see separate Jupyter Notebook).
 
