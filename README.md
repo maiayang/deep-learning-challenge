@@ -2,7 +2,7 @@
 
 In this challenge, we were tasked with helping a nonprofit, Alphabet Soup, with developing a tool they can use to select applicants for business funding based on their chances of being successful. We were given a dataset of 34,000 of businesses that were previously awarded funding. The dataset contained various information about the data including a column indicating whether the business was successful or not. We usdd this dataset to built a deep neural network model to predict whether applicants for business funding will be successful. 
 
-##Preprocessing the Data
+## Preprocessing the Data
 
 First, we preprocessed the data following these steps:
     1. Determine the number of unique values in each column.
@@ -15,7 +15,9 @@ First, we preprocessed the data following these steps:
     5. Split the data into training and testing datasets 
     6. Used scikit-learn's StandardScaler() to scale the data.
 
-##Compile, train, and evaluate the model
+
+
+## Compile, train, and evaluate the model
 
 Before we compiled the model, we defined the model by creating an instance of it and adding each hidden layer. For our first attempt, we used the following structure:
     -Two hidden layers, the first with 8 nodes, the second with 5 nodes
@@ -30,7 +32,7 @@ To try to achieve our target accuracy score of .75, we made three subsequent att
 
 In the first optimization attempt, we added a third hidden layer and increased the number of nodes in the first, second, and third hidden layers to 80, 50, and 30 respectively. In the second optimization attempt, we changed the activation functions for the hidden layers to the tanh function.  In the third optimization attempt, we increased the number of epochs to 200. In all cases we were not able to achieve an accuracy score higher than the first model.
 
-##Summary
+## Summary
 
 We attempted to develop a machine learning tool that would help Alphabet Soup select applicants for business funding using data from previous awardees. We were not able to achieve an accuracy score of higher than .73, so we can conclude that the dataset is perhaps lacking some fundamental variables that contribute to the success of a business. Some examples of additional information to collect for future analyses include:
     -Education level of Founder/CEO
