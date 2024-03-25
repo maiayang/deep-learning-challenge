@@ -5,14 +5,23 @@ In this challenge, we were tasked with helping a nonprofit, Alphabet Soup, with 
 ## Preprocessing the Data
 
 First, we preprocessed the data following these steps:
+    
     1. Determine the number of unique values in each column.
+    
     2. If any column contained more than 10 unique values, binning was used to group the rare values into an "Other" category. 
+    
     3. Use the pd.get_dummies function to convert categorical values into numerical values. 
+    
     4. Determine our target and features columns:
+    
         -The EIN and Name columns were dropped because they are only used for identification purposes
+        
         -The IS_SUCESSFUL column was used as the target 
-        -Ther rest of the columns were used as features
+        
+        -The rest of the columns were used as features
+  
     5. Split the data into training and testing datasets 
+    
     6. Used scikit-learn's StandardScaler() to scale the data.
 
 ![image](https://github.com/maiayang/deep-learning-challenge/assets/145394264/21c32c33-5d42-4e57-b357-511b1ea36ebb)
